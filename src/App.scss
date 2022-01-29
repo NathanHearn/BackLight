@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+
+  &__BackgroundImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__BackgroundColor {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
